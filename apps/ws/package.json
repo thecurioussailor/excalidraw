@@ -10,12 +10,14 @@
     "dev": "tsx --watch src/index.ts"
   },
   "dependencies": {
-    "@repo/typescript-config": "workspace:*"
+    "@repo/typescript-config": "workspace:*",
+    "ws": "^8.21.0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/ws": "^8.18.1",
     "tsx": "^4.22.3"
   }
 }
