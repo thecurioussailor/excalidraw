@@ -10,6 +10,7 @@
     "dev": "tsx --watch src/index.ts"
   },
   "dependencies": {
+    "@repo/db": "workspace:*",
     "@repo/backend-common": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "ws": "^8.21.0"
